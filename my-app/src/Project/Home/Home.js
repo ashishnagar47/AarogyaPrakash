@@ -215,7 +215,7 @@ const Home=()=>{
                             <div className="card-body">
                                 <h2 className="card-title">Course</h2>
                                 <p className="card-text">Basic Course 3 months Advance Course 6 months Diploma Course 12 months Offline Course & Online Course available</p>
-                                <a href="#" className="btn btn-primary">Learn More</a>
+                                <a href="/Course" className="btn btn-primary">Learn More</a>
                             </div>
                             </div>
                             <div className="col-md-3" style={{padding:"0px",paddingLeft:"0px"}}>
@@ -235,7 +235,7 @@ const Home=()=>{
                                 Home Service
                                 </h2>
                                 <p className="card-text">Home services available Delhi Ncr. Neurotherapy Expert</p>
-                                <a href="#" className="btn btn-primary">Know More</a>
+                                <a href="https://wa.me/message/G4GOFEHUCX5RB1" className="btn btn-primary">Know More</a>
                             </div>
                             </div>
                             <div className="col-md-3" style={{paddingTop:"0px",paddingLeft:"0px"}}>
@@ -347,7 +347,7 @@ const Home=()=>{
 
                                 <p className="card-text" style={{overflow: "hidden",textOverflow: "ellipsis",display: "-webkit-box",WebkitLineClamp: "3",WebkitBoxOrient: "vertical",}} >{item.body}</p>
 
-                                {/* <a href={"Treatment?id="+item._id} className="card-link">Read More</a> */}
+                                <a href={"bl/"+item._id} className="card-link">Read More</a>
                                 </div>
                             {/* </div> */}
                               </div>

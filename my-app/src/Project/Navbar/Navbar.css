@@ -65,7 +65,7 @@
 
 .iconB{
     margin-left: 8rem;
-    color: rgb(0, 60, 255);
+    color: rgb(0, 60, 255) !important;
   }
   
   .iconD{
