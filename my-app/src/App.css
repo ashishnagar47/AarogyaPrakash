@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Muli" , sans-serif;
+}
+
+.tog{
+  color: aliceblues !important;
+}
+
+/* .bar{
+  background-color: black !important;
+} */
+
+
+.pic1{
+  padding: 30px ;
+}
+
+.Wrap{
+  overflow-wrap: break-word;
+}

@@ -1,0 +1,90 @@
+.bar{
+    width: 100%;
+    /* height: 60px; */
+    background-color: white  !important;
+    position: fixed;
+    top: 0;
+    display: flex;
+    /* align-items: center; */
+    /* z-index: 1; */
+}
+
+.navbar a{
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: tan ;
+}
+
+.navbar a:hover{
+  color: tomato !important;
+}
+.container{
+  margin: 50px;
+}
+
+.navLeft , .navRight{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.navCenter{
+    flex:6;
+    /* background-color: brown; */
+}
+
+.navIcon{
+    font-size: 20px;
+    margin-right: 10px;
+    /* color: #444; */
+    cursor: pointer;
+}
+
+
+
+.navList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+/* .home{
+  margin-left: 2rem;
+} */
+
+.iconB{
+    margin-left: 8rem;
+    color: rgb(0, 60, 255);
+  }
+  
+  .iconD{
+    margin-left: 1rem;
+    color: rgb(0, 60, 255);
+  }
+  
+  .iconY{
+    margin-left: 1rem;
+    color: red;
+  }
+  
+  .iconI{
+    margin-left: 1rem;
+    color:red
+  }
+  
+  .iconG{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color:green
+  }
