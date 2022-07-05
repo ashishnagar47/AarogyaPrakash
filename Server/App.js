@@ -1,6 +1,6 @@
 const express= require('express') 
 const app=express()
-const PORT=5000
+const PORT=process.env.PORT || 5000
 const mongoose= require('mongoose')
 const {MONGOURI}= require('./config/Key')
 
@@ -36,6 +36,13 @@ mongoose.connection.on('error',(err)=>{
 
 // tUqiCq3yC2yL4w5r
 
+if(process.env.NODE_ENV=="production"){
+    app.use(express.static('my-app/build'))
+    const path = require('path')
+    app.get("*",(req,res)=>{
+        res.sendFile(path.resolve(__dirname,'my-app',build,'index.html'))
+    })
+}
 
 app.listen(PORT,()=>{
     console.log('server is running on ',PORT)
